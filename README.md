@@ -10,7 +10,7 @@ This chart is a personal fork to address some deficiencies and additions I neede
 ## My Helm Command
 
 ```console
-$ helm install code-server --set serviceAccount.name=coder --set image.repository=registry.home.local:8443/dev/code-server-base --set ingress.enabled=true --set password=mypassword ../Code-Server-Helm/ -n cicd
+$ helm install code-server --set serviceAccount.name=coder --set image.repository=registry.home.local:8443/test/code-server --set ingress.enabled=true --set password=mypassword ../Code-Server-Helm/ -n cicd
 ```
 
 ## TL;DR;

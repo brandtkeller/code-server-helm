@@ -5,8 +5,8 @@
 replicaCount: 1
 
 image:
-  repository: brandtkeller/code-server-base:3.8.0
-  tag: '3.8.0'
+  repository: codercom/code-server
+  tag: '3.9.0'
   pullPolicy: Always
 
 imagePullSecrets: []
